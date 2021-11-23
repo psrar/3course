@@ -1,0 +1,16 @@
+C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ4\VKS\bin\Debug\net5.0\VKS.exe
+C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ4\VKS\bin\Debug\net5.0\VKS.deps.json
+C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ4\VKS\bin\Debug\net5.0\VKS.runtimeconfig.json
+C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ4\VKS\bin\Debug\net5.0\VKS.runtimeconfig.dev.json
+C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ4\VKS\bin\Debug\net5.0\VKS.dll
+C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ4\VKS\bin\Debug\net5.0\ref\VKS.dll
+C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ4\VKS\bin\Debug\net5.0\VKS.pdb
+C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ4\VKS\obj\Debug\net5.0\VKS.csprojAssemblyReference.cache
+C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ4\VKS\obj\Debug\net5.0\VKS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ4\VKS\obj\Debug\net5.0\VKS.AssemblyInfoInputs.cache
+C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ4\VKS\obj\Debug\net5.0\VKS.AssemblyInfo.cs
+C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ4\VKS\obj\Debug\net5.0\VKS.csproj.CoreCompileInputs.cache
+C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ4\VKS\obj\Debug\net5.0\VKS.dll
+C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ4\VKS\obj\Debug\net5.0\ref\VKS.dll
+C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ4\VKS\obj\Debug\net5.0\VKS.pdb
+C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ4\VKS\obj\Debug\net5.0\VKS.genruntimeconfig.cache
