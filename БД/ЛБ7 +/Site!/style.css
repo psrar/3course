@@ -1,0 +1,143 @@
+html {
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./Rubik.ttf');
+}
+
+@font-face {
+    font-family: 'RubikReg';
+    src: url('./RubikReg.ttf');
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(214, 245, 255);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table {
+    font-family: 'RubikReg';
+}
+
+textarea {
+    font-family: 'RubikReg';
+}
+
+marquee {
+    font-family: 'Rubik';
+}
+
+table {
+    border: 1px;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+    border-color: rgb(212, 212, 212);
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+a:after {
+    background: none repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 2px;
+    bottom: 5%;
+    position: absolute;
+    background: gray;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+.header {
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(133, 225, 255);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
+    height: 40px;
+    font-family: Rubik;
+    font-size: x-large;
+}
+
+.topPanel {
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+    font-family: 'RubikReg';
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.article {
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+h1 {
+    font-family: 'Rubikreg';
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.articlebody {
+    font-family: 'Rubikreg';
+    font-weight: regular;
+    font-size: medium;
+}
+
+.card {
+    transition: 0.3s ease 0s;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 0 2px;
+}
+
+.card:hover {
+    transition: 0s;
+    background-color: rgb(226, 226, 226);
+    box-shadow: 0 0 2px;
+}
+
+.overviewFrame {
+    pointer-events: none;
+}
+
+input[type=range] {
+    pointer-events: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    pointer-events: auto;
+}
+
+input[type=range]::-moz-range-thumb {
+    pointer-events: auto;
+}
+
+input[type=range]::-ms-thumb {
+    pointer-events: auto;
+}
