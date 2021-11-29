@@ -5,7 +5,6 @@ C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС
 C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ6\VKS\bin\Debug\net5.0\VKS.dll
 C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ6\VKS\bin\Debug\net5.0\ref\VKS.dll
 C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ6\VKS\bin\Debug\net5.0\VKS.pdb
-C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ6\VKS\obj\Debug\net5.0\VKS.csprojAssemblyReference.cache
 C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ6\VKS\obj\Debug\net5.0\VKS.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ6\VKS\obj\Debug\net5.0\VKS.AssemblyInfoInputs.cache
 C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ6\VKS\obj\Debug\net5.0\VKS.AssemblyInfo.cs
@@ -14,3 +13,4 @@ C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС
 C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ6\VKS\obj\Debug\net5.0\ref\VKS.dll
 C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ6\VKS\obj\Debug\net5.0\VKS.pdb
 C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ6\VKS\obj\Debug\net5.0\VKS.genruntimeconfig.cache
+C:\Users\pavel\Desktop\Третий курс\ВКС\ПрактическиВКС\ЛБ6\VKS\obj\Debug\net5.0\VKS.csprojAssemblyReference.cache
