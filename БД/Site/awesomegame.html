@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animpaf Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="" href="style.css">
+</head>
+
+<body style='background: -webkit-gradient(linear, right top, left bottom, from(rgb(255, 161, 213)), to(rgb(255, 161, 181))) fixed;'>
+    <div class="header" style='background-color: rgb(255, 73, 112);'>
+        <a href="index.html">Animpaf</a>
+    </div>
+
+    <div class="article">
+        <h1>
+            Оставьте свои контакты, мы перезвоним. Обязательно.
+        </h1>
+        <div class="articlebody">
+            <form name="form" action="./awesomechart.php" method="POST">
+                Укажите ваш возраст.<br>
+                <input type="number" name="Age" required></input>
+
+                <br><br>Участники опроса могут получить цветной ник. Укажите ваш цвет. Потом его можно будет сменить<br>
+                <input type="color" value="#FF0000" name="Color" required></input>
+
+                <br><br>Какой жанр вы больше всего любите?<br>
+                <input type="radio" name="Genre" value="Аркада" required>Аркада</input>
+                <input type="radio" name="Genre" value="Шутер" required/>Шутер</input>
+                <input type="radio" name="Genre" value="Гонки" required/>Гонки</input>
+
+                <br><br>Какие особенности хочется видеть в следующей игре?
+                <br><input type="checkbox" name="Feature[]" value="Мультиплеер" />Мультиплеер</input>
+                <br><input type="checkbox" name="Feature[]" value="Скорость" />Скорость</input>
+                <br><input type="checkbox" name="Feature[]" value="Сюжет" />Сюжет</input>
+                <br><input type="checkbox" name="Feature[]" value="Соревнования" />Соревнования</input>
+                <br><input type="checkbox" name="Feature[]" value="Стратегия" />Стратегия</input>
+
+                <br><br>Оставьте пару добрых слов разработчикам. Мы читаем их, когда становится трудно.<br>
+                <textarea name="Message"></textarea>
+
+                <br><br>Укажите электронную почту, и мы сообщим вам, что из этого вышло!
+                <br><input type="email" name="Email" cols="30" rows="5" required></input>
+                <input type="submit" name="submit" value="Отправить">
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // © Сашка
+        const checks = document.getElementsByName("Feature[]");
+        checks.forEach(element => {
+            element.addEventListener("click", () => {
+                let sum = 0;
+                for (let i = 0; i < checks.length; i++)
+                    if (checks[i].checked) sum++;
+                if (sum > 3) {
+                    alert("Можно отметить не более трех жанров");
+                    element.checked = false
+                }
+            })
+        });
+        //Остальное сам
+        const form = document.getElementsByName('form')[0];
+        form.addEventListener('submit', (event) => {
+            let sum = 0;
+            checks.forEach(el => {
+                if (el.checked == true)
+                    sum++;
+            });
+            if (sum == 0) {
+                alert('Выберите хотя бы один предпочитаемый жанр.')
+                event.preventDefault();
+            }
+        });
+    </script>
+</body>
+
+</html>
