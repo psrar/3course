@@ -8,27 +8,34 @@
     <title>Animpaf Studio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    * {
-        font-family: 'Rubik';
-    }
-</style>
 
 <body>
     <div class="header">
-        <div>
-            <a href="index.html">Animpaf</a></div>
-        <div class="topPanel ">
-            <a href="about.html ">О нас</a>
-            <a href="projects.html ">Проекты</a>
-            <a href="frames.html ">Фреймы. Потому что мы можем.</a>
-            <a href="contactus.html ">Связаться с нами.</a>
+        <div style="display: flex;">
+            <a class="header_ref" href="index.html">Animpaf</a>
+            <div class="topPanel">
+                <a class="header_ref" href="about.html ">О нас</a>
+                <a class="header_ref" href="projects.html ">Проекты</a>
+                <a class="header_ref" href="frames.html ">Фреймы. Потому что мы можем.</a>
+                <a class="header_ref" href="contactus.html ">Связаться с нами</a>
+            </div>
+        </div>
+        <div class="topPanel">
+            <a class="header_ref" href="dbwork/login.php">Администрация</a>
         </div>
     </div>
-    <div class="header" style="background-color: rgb(238, 0, 79);">
-        <a href="awesomegame.html" style="color: rgb(241, 241, 241);">Выберите вашу следующую игру мечты!</a></div>
+    <div class="header urgency" onclick="location.href='awesomegame.html' ">Выберите вашу следующую игру мечты!</div>
+    <marquee>Релиз совсем скоро! (нет)</marquee>
+    <div class="article ">
+        <h1>
+            Статья 1
+        </h1>
+        <div class="articlebody ">
+            <p>
+                Текст статьи 1
+            </p>
+        </div>
     </div>
-    <marquee style="position: absolute; top: 50%;">Релиз совсем скоро! (нет)</marquee>
 </body>
 
 </html>

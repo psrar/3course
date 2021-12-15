@@ -15,11 +15,11 @@ html {
 body {
     height: 100%;
     margin: 0;
-    background-color: rgb(214, 245, 255);
+    background-color: rgb(132, 160, 168);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    overflow: hidden;
+    overflow: auto;
 }
 
 table {
@@ -41,26 +41,25 @@ table {
     border-color: rgb(212, 212, 212);
 }
 
-a {
+.header_ref {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    display: inline-block;
     position: relative;
 }
 
-a:after {
+.header_ref:after {
     background: none repeat scroll 0 0 transparent;
     content: "";
     display: block;
     height: 2px;
     bottom: 5%;
     position: absolute;
-    background: gray;
+    background: rgb(22, 22, 22);
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
 
-a:hover:after {
+.header_ref:hover:after {
     width: 100%;
     left: 0;
 }
@@ -74,16 +73,30 @@ ul {
     border-radius: 5px;
     background-color: rgb(133, 225, 255);
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
-    padding-left: 10px;
+    padding: 0 10px 0 10px;
     height: 40px;
     font-family: Rubik;
     font-size: x-large;
 }
 
+.urgency {
+    transition: 0.3s ease 0s, left 0.3s ease 0.2s;
+    background-color: red;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.urgency:hover {
+    transition: 0.1s ease 0s, left 0.3s ease 0.2s;
+    background-color: rgb(255, 231, 11);
+    color: red;
+}
+
 .topPanel {
     display: flex;
+    align-items: center;
     gap: 15px;
     margin-left: 20px;
     font-family: 'RubikReg';
@@ -92,7 +105,7 @@ ul {
 }
 
 .article {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
