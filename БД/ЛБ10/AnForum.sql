@@ -3,7 +3,7 @@ use anforum;
 
 create table Usr(
 id int auto_increment,
-username varchar(200) not null,
+username varchar(200) unique not null,
 passhash varchar(512) not null,
 rights varchar(10) not null default '100100100',
 #Слева направо:
@@ -40,5 +40,10 @@ foreign key (category) references Category(c_name)
 insert into usr(username, passhash, rights, descr)
 values('psrar', '25d55ad283aa400af464c76d713c07ad', '101111111', 'Я ваш отец'),
 ('sashkaool', '5e8667a439c68f5145dd2fcbecf02209', '100100100', 'Ненавижу феминитивы');
+
+insert into category
+values('Игры', 'path/to/icon'),
+('Технологии', 'path/to/icon'),
+('Аниме', 'path/to/icon');
 
 select * from usr where username = 'psrar';

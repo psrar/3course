@@ -3,16 +3,22 @@ function alert($message)
 {
     echo "<script>alert('$message');</script>";
 }
-$mysqlcon = mysqli_connect('localhost', 'root', '2030203pa', 'anforum', $port = 3306);
-$query = 'SELECT * from usr;';
-echo mysqli_fetch_all(mysqli_query($mysqlcon, $query))[1][1];
-//получаю результаты. можно приступать к панели управления
-if (isset($_POST['Username']) and $_POST['Username'] != '' and $_POST['Password'] != '') {
+
+if ($_POST['Username'] != '' and $_POST['Password'] != '') {
     $login = $_POST['Username'];
     $password = $_POST['Password'];
     if (preg_match('/[();*-]/', $login) or preg_match('/[();*-]/', $password))
         alert('Прекратите взламывать!');
     else {
+        $mysqlcon = mysqli_connect('localhost', 'root', '2030203pa', 'anforum', $port = 3306);
+        $query = "SELECT passhash from usr where username = '" . $_POST['Username'] . "';";
+        $res = mysqli_query($mysqlcon, $query);
+        if (mysqli_affected_rows($mysqlcon) != 0) {
+            $data = mysqli_fetch_assoc($res);
+            if ($data['passhash'] == md5($_POST['Password']))
+                echo "<script>location.href='./adminpanel.html'</script>";
+            else alert('Неправильный пароль.');
+        } else alert('Такого пользователя не существует.');
     }
 };
 

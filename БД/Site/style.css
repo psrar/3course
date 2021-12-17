@@ -15,7 +15,7 @@ html {
 body {
     height: 100%;
     margin: 0;
-    background-color: rgb(132, 160, 168);
+    background-color: rgb(84, 154, 173);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -127,7 +127,7 @@ h1 {
 .card {
     transition: 0.3s ease 0s;
     background-color: rgb(245, 245, 245);
-    box-shadow: 0 0 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.521);
 }
 
 .card:hover {
